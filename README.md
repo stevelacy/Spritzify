@@ -2,6 +2,7 @@
 
 ##### jQuery rebuild of OpenSpritz
 
+##### A clean and basic jQuery plugin without the extra cruft.
 
 
 ### Example
@@ -26,6 +27,7 @@ $('#textblock').spritzify({wpm: '250'})
     default: `500`
 
 example:
+
 
 ```js
 
