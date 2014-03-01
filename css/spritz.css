@@ -1,0 +1,17 @@
+/* Style for Spritzify */
+
+.spritzify{
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #efefef;
+  width: 250px;
+  height: 80px;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;  
+
+}
+.spritzify .cursor{
+  color: #FF0000;
+}
