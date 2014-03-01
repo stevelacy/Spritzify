@@ -41,7 +41,6 @@ $.fn.spritzify = function(opts){
 
     console.log(word);
     $(element).html(start.slice(0, start.length -1) + "<span class='cursor'>" + start.slice(start.length-1, start.length) + "</span>"+ end);
-    //$(element).html("<span class='start'>" + start.slice(0, start.length -1) + "</span><span class='cursor'>" + start.slice(start.length-1, start.length) + "</span><span class='end'>"+ end + "</span>");
 
     setTimeout(cb, delay);
   };
