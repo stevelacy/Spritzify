@@ -4,7 +4,7 @@ $.fn.spritzify = function(opts){
   opts.wpm = 60000/opts.wpm;
 
   var element = this.selector;
-  var text = this.text().split(' ');
+  var text = this.text().split(/\s+/);
 
   $(element).addClass('spritzify');
 
