@@ -19,10 +19,10 @@ $.fn.spritzify = function(opts){
     var bit = -1;
     while(word.length < 22){
       if(bit > 0){
-          word = word + ' ';
+        word = word + ' ';
       }
       else{
-          word = ' ' + word;
+        word = ' ' + word;
       }
       bit = bit * -1;
     }
@@ -46,7 +46,5 @@ $.fn.spritzify = function(opts){
   };
 
   async.eachSeries(text, showWord);
-
-
 
 };
