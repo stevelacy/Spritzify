@@ -1,9 +1,26 @@
 /* Style for the example index.html */
-
-*{
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
 
+@font-face {
+  font-family: 'neue';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Neue'), local('Neue'), url("../font/neue.woff") format('woff');
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+  font-family: 'Neue';
 }
 .main{
   text-align: center;
@@ -14,4 +31,21 @@
 }
 .spacer{
   height: 100px;
+}
+
+.header {
+  width: 100%;
+  height: 75px;
+  background: #fafafa;
+  border-bottom: 2px solid #efefef;
+  padding: 25px;
+}
+.header a {
+  color: #000;
+}
+.header .github {
+  position: absolute;
+  right: 15;
+  top: 15;
+  height: 42px;
 }
