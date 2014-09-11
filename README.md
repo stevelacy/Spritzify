@@ -4,8 +4,9 @@
 
 ##### A clean and basic jQuery plugin without the extra cruft.
 
+### [Demo](http://stevelacy.github.io/Spritzify/)
 
-### Example
+### Usage
 
 ```js
 
@@ -22,7 +23,7 @@ $('#textblock').spritzify({wpm: '250'})
 ## API
 
 #### options.wpm
-    
+
     type: `Number`
     default: `500`
 
